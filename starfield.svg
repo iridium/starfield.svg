@@ -1,0 +1,1628 @@
+
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+<style>
+
+.bg { fill: #0d1117; }
+circle { fill: #ffffff; }
+
+@media (prefers-color-scheme: light) {
+  .bg { fill: #ffffff; }
+  circle { fill: #1b1f24; }
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(var(--cx), var(--cy)) rotate(var(--angle)) translateX(0px) scale(0.1);
+    opacity: 0;
+  }
+  10% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+  85% { opacity: 1; }
+  100% {
+    transform: translate(var(--cx), var(--cy)) rotate(var(--angle)) translateX(var(--dist)) scale(1);
+    opacity: 0;
+  }
+}
+
+.s0 {
+  --angle: 230.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 288px;
+  animation: fly 3.1s 1.6s linear infinite;
+}
+.s1 {
+  --angle: 265.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 497px;
+  animation: fly 5.6s 0.6s linear infinite;
+}
+.s2 {
+  --angle: 151.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 290px;
+  animation: fly 2.9s 3.5s linear infinite;
+}
+.s3 {
+  --angle: 9.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 344px;
+  animation: fly 4.6s 3.8s linear infinite;
+}
+.s4 {
+  --angle: 79.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 469px;
+  animation: fly 5.2s 0.0s linear infinite;
+}
+.s5 {
+  --angle: 290.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 503px;
+  animation: fly 3.4s 1.1s linear infinite;
+}
+.s6 {
+  --angle: 344.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 388px;
+  animation: fly 2.4s 0.7s linear infinite;
+}
+.s7 {
+  --angle: 305.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 473px;
+  animation: fly 5.2s 5.1s linear infinite;
+}
+.s8 {
+  --angle: 193.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 591px;
+  animation: fly 3.5s 3.9s linear infinite;
+}
+.s9 {
+  --angle: 298.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 478px;
+  animation: fly 5.4s 4.0s linear infinite;
+}
+.s10 {
+  --angle: 253.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 295px;
+  animation: fly 2.9s 2.0s linear infinite;
+}
+.s11 {
+  --angle: 28.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 354px;
+  animation: fly 2.4s 1.9s linear infinite;
+}
+.s12 {
+  --angle: 228.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 397px;
+  animation: fly 3.5s 1.5s linear infinite;
+}
+.s13 {
+  --angle: 96.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 580px;
+  animation: fly 4.6s 4.3s linear infinite;
+}
+.s14 {
+  --angle: 61.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 513px;
+  animation: fly 2.7s 2.7s linear infinite;
+}
+.s15 {
+  --angle: 356.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 485px;
+  animation: fly 4.2s 4.8s linear infinite;
+}
+.s16 {
+  --angle: 303.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 528px;
+  animation: fly 2.9s 0.2s linear infinite;
+}
+.s17 {
+  --angle: 113.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 366px;
+  animation: fly 2.8s 6.6s linear infinite;
+}
+.s18 {
+  --angle: 315.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 381px;
+  animation: fly 4.6s 2.8s linear infinite;
+}
+.s19 {
+  --angle: 329.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 427px;
+  animation: fly 3.1s 1.7s linear infinite;
+}
+.s20 {
+  --angle: 202.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 364px;
+  animation: fly 4.3s 6.3s linear infinite;
+}
+.s21 {
+  --angle: 143.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 350px;
+  animation: fly 6.0s 3.6s linear infinite;
+}
+.s22 {
+  --angle: 32.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 295px;
+  animation: fly 2.4s 4.4s linear infinite;
+}
+.s23 {
+  --angle: 285.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 415px;
+  animation: fly 2.3s 2.7s linear infinite;
+}
+.s24 {
+  --angle: 358.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 449px;
+  animation: fly 5.9s 6.0s linear infinite;
+}
+.s25 {
+  --angle: 4.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 511px;
+  animation: fly 4.7s 3.8s linear infinite;
+}
+.s26 {
+  --angle: 96.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 485px;
+  animation: fly 2.4s 3.0s linear infinite;
+}
+.s27 {
+  --angle: 163.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 585px;
+  animation: fly 5.5s 1.8s linear infinite;
+}
+.s28 {
+  --angle: 180.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 337px;
+  animation: fly 5.7s 6.1s linear infinite;
+}
+.s29 {
+  --angle: 107.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 484px;
+  animation: fly 4.4s 1.1s linear infinite;
+}
+.s30 {
+  --angle: 274.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 453px;
+  animation: fly 5.1s 3.7s linear infinite;
+}
+.s31 {
+  --angle: 0.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 384px;
+  animation: fly 2.1s 6.5s linear infinite;
+}
+.s32 {
+  --angle: 316.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 546px;
+  animation: fly 3.2s 0.4s linear infinite;
+}
+.s33 {
+  --angle: 316.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 583px;
+  animation: fly 2.3s 3.4s linear infinite;
+}
+.s34 {
+  --angle: 24.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 523px;
+  animation: fly 5.1s 0.9s linear infinite;
+}
+.s35 {
+  --angle: 171.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 456px;
+  animation: fly 3.1s 6.1s linear infinite;
+}
+.s36 {
+  --angle: 152.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 348px;
+  animation: fly 4.2s 5.1s linear infinite;
+}
+.s37 {
+  --angle: 72.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 380px;
+  animation: fly 6.0s 4.5s linear infinite;
+}
+.s38 {
+  --angle: 157.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 446px;
+  animation: fly 2.5s 1.6s linear infinite;
+}
+.s39 {
+  --angle: 121.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 468px;
+  animation: fly 2.9s 1.5s linear infinite;
+}
+.s40 {
+  --angle: 25.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 482px;
+  animation: fly 2.9s 6.3s linear infinite;
+}
+.s41 {
+  --angle: 309.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 303px;
+  animation: fly 3.0s 4.7s linear infinite;
+}
+.s42 {
+  --angle: 77.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 322px;
+  animation: fly 5.7s 4.0s linear infinite;
+}
+.s43 {
+  --angle: 170.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 531px;
+  animation: fly 5.2s 1.3s linear infinite;
+}
+.s44 {
+  --angle: 34.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 418px;
+  animation: fly 3.7s 3.3s linear infinite;
+}
+.s45 {
+  --angle: 262.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 495px;
+  animation: fly 5.9s 0.7s linear infinite;
+}
+.s46 {
+  --angle: 144.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 389px;
+  animation: fly 5.4s 1.7s linear infinite;
+}
+.s47 {
+  --angle: 68.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 424px;
+  animation: fly 3.7s 1.9s linear infinite;
+}
+.s48 {
+  --angle: 89.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 575px;
+  animation: fly 3.8s 6.0s linear infinite;
+}
+.s49 {
+  --angle: 198.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 296px;
+  animation: fly 6.0s 5.9s linear infinite;
+}
+.s50 {
+  --angle: 348.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 576px;
+  animation: fly 5.4s 1.2s linear infinite;
+}
+.s51 {
+  --angle: 174.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 348px;
+  animation: fly 3.6s 0.4s linear infinite;
+}
+.s52 {
+  --angle: 136.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 595px;
+  animation: fly 3.1s 5.5s linear infinite;
+}
+.s53 {
+  --angle: 163.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 415px;
+  animation: fly 5.8s 7.0s linear infinite;
+}
+.s54 {
+  --angle: 200.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 510px;
+  animation: fly 2.6s 2.1s linear infinite;
+}
+.s55 {
+  --angle: 348.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 465px;
+  animation: fly 4.2s 5.2s linear infinite;
+}
+.s56 {
+  --angle: 20.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 467px;
+  animation: fly 4.0s 6.0s linear infinite;
+}
+.s57 {
+  --angle: 56.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 587px;
+  animation: fly 2.3s 1.3s linear infinite;
+}
+.s58 {
+  --angle: 214.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 496px;
+  animation: fly 2.9s 0.8s linear infinite;
+}
+.s59 {
+  --angle: 320.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 359px;
+  animation: fly 4.4s 4.3s linear infinite;
+}
+.s60 {
+  --angle: 150.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 467px;
+  animation: fly 4.1s 6.5s linear infinite;
+}
+.s61 {
+  --angle: 73.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 509px;
+  animation: fly 3.0s 2.8s linear infinite;
+}
+.s62 {
+  --angle: 241.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 376px;
+  animation: fly 3.3s 5.3s linear infinite;
+}
+.s63 {
+  --angle: 26.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 427px;
+  animation: fly 6.0s 7.0s linear infinite;
+}
+.s64 {
+  --angle: 26.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 348px;
+  animation: fly 3.1s 6.5s linear infinite;
+}
+.s65 {
+  --angle: 317.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 561px;
+  animation: fly 3.5s 1.1s linear infinite;
+}
+.s66 {
+  --angle: 300.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 505px;
+  animation: fly 4.4s 6.9s linear infinite;
+}
+.s67 {
+  --angle: 235.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 283px;
+  animation: fly 5.3s 2.1s linear infinite;
+}
+.s68 {
+  --angle: 238.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 580px;
+  animation: fly 2.5s 0.8s linear infinite;
+}
+.s69 {
+  --angle: 38.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 457px;
+  animation: fly 3.1s 4.2s linear infinite;
+}
+.s70 {
+  --angle: 258.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 345px;
+  animation: fly 4.5s 1.8s linear infinite;
+}
+.s71 {
+  --angle: 175.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 570px;
+  animation: fly 5.4s 0.6s linear infinite;
+}
+.s72 {
+  --angle: 152.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 369px;
+  animation: fly 2.0s 5.4s linear infinite;
+}
+.s73 {
+  --angle: 229.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 364px;
+  animation: fly 5.0s 3.9s linear infinite;
+}
+.s74 {
+  --angle: 154.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 283px;
+  animation: fly 2.3s 6.2s linear infinite;
+}
+.s75 {
+  --angle: 325.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 455px;
+  animation: fly 5.3s 4.1s linear infinite;
+}
+.s76 {
+  --angle: 53.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 321px;
+  animation: fly 3.2s 6.3s linear infinite;
+}
+.s77 {
+  --angle: 286.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 555px;
+  animation: fly 5.6s 1.5s linear infinite;
+}
+.s78 {
+  --angle: 89.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 313px;
+  animation: fly 5.1s 6.2s linear infinite;
+}
+.s79 {
+  --angle: 146.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 479px;
+  animation: fly 2.6s 6.5s linear infinite;
+}
+.s80 {
+  --angle: 311.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 592px;
+  animation: fly 5.2s 6.2s linear infinite;
+}
+.s81 {
+  --angle: 8.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 516px;
+  animation: fly 3.3s 6.5s linear infinite;
+}
+.s82 {
+  --angle: 288.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 557px;
+  animation: fly 5.2s 1.9s linear infinite;
+}
+.s83 {
+  --angle: 283.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 315px;
+  animation: fly 5.5s 6.0s linear infinite;
+}
+.s84 {
+  --angle: 80.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 541px;
+  animation: fly 3.8s 2.1s linear infinite;
+}
+.s85 {
+  --angle: 286.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 353px;
+  animation: fly 2.1s 1.4s linear infinite;
+}
+.s86 {
+  --angle: 118.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 557px;
+  animation: fly 5.9s 2.0s linear infinite;
+}
+.s87 {
+  --angle: 230.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 408px;
+  animation: fly 5.9s 3.8s linear infinite;
+}
+.s88 {
+  --angle: 338.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 317px;
+  animation: fly 5.9s 1.2s linear infinite;
+}
+.s89 {
+  --angle: 346.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 365px;
+  animation: fly 2.4s 3.0s linear infinite;
+}
+.s90 {
+  --angle: 262.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 380px;
+  animation: fly 4.4s 3.6s linear infinite;
+}
+.s91 {
+  --angle: 138.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 465px;
+  animation: fly 3.0s 5.0s linear infinite;
+}
+.s92 {
+  --angle: 0.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 576px;
+  animation: fly 4.2s 5.0s linear infinite;
+}
+.s93 {
+  --angle: 267.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 495px;
+  animation: fly 3.5s 0.5s linear infinite;
+}
+.s94 {
+  --angle: 239.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 386px;
+  animation: fly 3.3s 5.9s linear infinite;
+}
+.s95 {
+  --angle: 259.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 376px;
+  animation: fly 3.2s 2.9s linear infinite;
+}
+.s96 {
+  --angle: 144.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 375px;
+  animation: fly 2.5s 2.9s linear infinite;
+}
+.s97 {
+  --angle: 338.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 497px;
+  animation: fly 5.6s 4.3s linear infinite;
+}
+.s98 {
+  --angle: 108.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 455px;
+  animation: fly 2.0s 2.0s linear infinite;
+}
+.s99 {
+  --angle: 154.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 466px;
+  animation: fly 4.6s 3.3s linear infinite;
+}
+.s100 {
+  --angle: 159.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 348px;
+  animation: fly 3.9s 6.3s linear infinite;
+}
+.s101 {
+  --angle: 286.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 334px;
+  animation: fly 2.3s 3.6s linear infinite;
+}
+.s102 {
+  --angle: 227.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 387px;
+  animation: fly 5.3s 5.3s linear infinite;
+}
+.s103 {
+  --angle: 242.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 352px;
+  animation: fly 2.8s 0.2s linear infinite;
+}
+.s104 {
+  --angle: 88.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 432px;
+  animation: fly 5.4s 0.5s linear infinite;
+}
+.s105 {
+  --angle: 149.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 482px;
+  animation: fly 2.8s 4.9s linear infinite;
+}
+.s106 {
+  --angle: 178.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 358px;
+  animation: fly 4.6s 0.0s linear infinite;
+}
+.s107 {
+  --angle: 270.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 526px;
+  animation: fly 2.4s 3.0s linear infinite;
+}
+.s108 {
+  --angle: 63.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 587px;
+  animation: fly 4.1s 0.4s linear infinite;
+}
+.s109 {
+  --angle: 89.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 551px;
+  animation: fly 3.8s 5.6s linear infinite;
+}
+.s110 {
+  --angle: 240.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 596px;
+  animation: fly 4.4s 6.7s linear infinite;
+}
+.s111 {
+  --angle: 320.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 476px;
+  animation: fly 4.9s 3.5s linear infinite;
+}
+.s112 {
+  --angle: 299.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 455px;
+  animation: fly 5.6s 5.2s linear infinite;
+}
+.s113 {
+  --angle: 170.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 363px;
+  animation: fly 3.0s 4.5s linear infinite;
+}
+.s114 {
+  --angle: 275.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 447px;
+  animation: fly 4.5s 1.9s linear infinite;
+}
+.s115 {
+  --angle: 27.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 371px;
+  animation: fly 3.1s 2.2s linear infinite;
+}
+.s116 {
+  --angle: 194.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 324px;
+  animation: fly 2.9s 4.9s linear infinite;
+}
+.s117 {
+  --angle: 254.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 301px;
+  animation: fly 3.6s 3.8s linear infinite;
+}
+.s118 {
+  --angle: 149.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 346px;
+  animation: fly 3.7s 6.3s linear infinite;
+}
+.s119 {
+  --angle: 210.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 503px;
+  animation: fly 5.4s 5.4s linear infinite;
+}
+.s120 {
+  --angle: 136.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 282px;
+  animation: fly 3.4s 5.3s linear infinite;
+}
+.s121 {
+  --angle: 307.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 585px;
+  animation: fly 3.7s 5.2s linear infinite;
+}
+.s122 {
+  --angle: 196.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 473px;
+  animation: fly 2.9s 1.5s linear infinite;
+}
+.s123 {
+  --angle: 156.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 289px;
+  animation: fly 3.3s 4.8s linear infinite;
+}
+.s124 {
+  --angle: 145.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 333px;
+  animation: fly 3.9s 0.9s linear infinite;
+}
+.s125 {
+  --angle: 224.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 289px;
+  animation: fly 3.6s 4.0s linear infinite;
+}
+.s126 {
+  --angle: 9.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 486px;
+  animation: fly 2.5s 3.2s linear infinite;
+}
+.s127 {
+  --angle: 18.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 401px;
+  animation: fly 2.8s 2.3s linear infinite;
+}
+.s128 {
+  --angle: 274.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 401px;
+  animation: fly 5.0s 5.8s linear infinite;
+}
+.s129 {
+  --angle: 90.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 306px;
+  animation: fly 2.1s 3.8s linear infinite;
+}
+.s130 {
+  --angle: 360.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 392px;
+  animation: fly 4.6s 5.5s linear infinite;
+}
+.s131 {
+  --angle: 234.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 521px;
+  animation: fly 5.8s 1.4s linear infinite;
+}
+.s132 {
+  --angle: 7.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 329px;
+  animation: fly 2.5s 4.7s linear infinite;
+}
+.s133 {
+  --angle: 203.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 350px;
+  animation: fly 4.8s 5.4s linear infinite;
+}
+.s134 {
+  --angle: 60.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 474px;
+  animation: fly 5.0s 0.8s linear infinite;
+}
+.s135 {
+  --angle: 294.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 589px;
+  animation: fly 2.4s 0.2s linear infinite;
+}
+.s136 {
+  --angle: 112.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 497px;
+  animation: fly 5.8s 2.8s linear infinite;
+}
+.s137 {
+  --angle: 257.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 304px;
+  animation: fly 4.8s 4.4s linear infinite;
+}
+.s138 {
+  --angle: 36.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 527px;
+  animation: fly 5.4s 4.2s linear infinite;
+}
+.s139 {
+  --angle: 43.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 595px;
+  animation: fly 5.1s 2.4s linear infinite;
+}
+.s140 {
+  --angle: 154.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 399px;
+  animation: fly 4.0s 2.4s linear infinite;
+}
+.s141 {
+  --angle: 305.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 543px;
+  animation: fly 2.4s 6.7s linear infinite;
+}
+.s142 {
+  --angle: 228.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 545px;
+  animation: fly 4.8s 3.0s linear infinite;
+}
+.s143 {
+  --angle: 264.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 589px;
+  animation: fly 3.1s 5.7s linear infinite;
+}
+.s144 {
+  --angle: 193.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 435px;
+  animation: fly 3.7s 5.1s linear infinite;
+}
+.s145 {
+  --angle: 96.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 553px;
+  animation: fly 5.3s 0.6s linear infinite;
+}
+.s146 {
+  --angle: 317.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 358px;
+  animation: fly 3.9s 4.3s linear infinite;
+}
+.s147 {
+  --angle: 136.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 289px;
+  animation: fly 5.4s 1.3s linear infinite;
+}
+.s148 {
+  --angle: 76.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 535px;
+  animation: fly 3.4s 6.2s linear infinite;
+}
+.s149 {
+  --angle: 252.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 368px;
+  animation: fly 2.0s 6.6s linear infinite;
+}
+.s150 {
+  --angle: 30.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 510px;
+  animation: fly 4.0s 5.3s linear infinite;
+}
+.s151 {
+  --angle: 248.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 487px;
+  animation: fly 4.0s 5.6s linear infinite;
+}
+.s152 {
+  --angle: 33.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 351px;
+  animation: fly 4.8s 2.1s linear infinite;
+}
+.s153 {
+  --angle: 209.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 431px;
+  animation: fly 4.1s 3.0s linear infinite;
+}
+.s154 {
+  --angle: 268.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 386px;
+  animation: fly 4.8s 1.9s linear infinite;
+}
+.s155 {
+  --angle: 90.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 319px;
+  animation: fly 2.8s 0.8s linear infinite;
+}
+.s156 {
+  --angle: 192.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 524px;
+  animation: fly 2.7s 1.5s linear infinite;
+}
+.s157 {
+  --angle: 174.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 512px;
+  animation: fly 5.9s 3.7s linear infinite;
+}
+.s158 {
+  --angle: 101.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 312px;
+  animation: fly 2.8s 1.6s linear infinite;
+}
+.s159 {
+  --angle: 64.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 285px;
+  animation: fly 4.1s 1.9s linear infinite;
+}
+.s160 {
+  --angle: 350.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 457px;
+  animation: fly 4.8s 0.9s linear infinite;
+}
+.s161 {
+  --angle: 312.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 437px;
+  animation: fly 5.5s 4.0s linear infinite;
+}
+.s162 {
+  --angle: 169.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 421px;
+  animation: fly 2.7s 0.4s linear infinite;
+}
+.s163 {
+  --angle: 338.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 433px;
+  animation: fly 5.3s 2.8s linear infinite;
+}
+.s164 {
+  --angle: 26.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 481px;
+  animation: fly 2.2s 1.0s linear infinite;
+}
+.s165 {
+  --angle: 202.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 377px;
+  animation: fly 6.0s 0.8s linear infinite;
+}
+.s166 {
+  --angle: 275.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 474px;
+  animation: fly 5.2s 1.6s linear infinite;
+}
+.s167 {
+  --angle: 188.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 424px;
+  animation: fly 3.8s 6.0s linear infinite;
+}
+.s168 {
+  --angle: 356.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 378px;
+  animation: fly 4.5s 4.3s linear infinite;
+}
+.s169 {
+  --angle: 266.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 583px;
+  animation: fly 2.8s 1.5s linear infinite;
+}
+.s170 {
+  --angle: 237.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 330px;
+  animation: fly 2.7s 0.5s linear infinite;
+}
+.s171 {
+  --angle: 1.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 424px;
+  animation: fly 4.4s 2.0s linear infinite;
+}
+.s172 {
+  --angle: 83.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 506px;
+  animation: fly 4.8s 3.2s linear infinite;
+}
+.s173 {
+  --angle: 247.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 576px;
+  animation: fly 5.2s 4.4s linear infinite;
+}
+.s174 {
+  --angle: 238.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 579px;
+  animation: fly 3.7s 3.8s linear infinite;
+}
+.s175 {
+  --angle: 233.1deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 571px;
+  animation: fly 5.3s 0.5s linear infinite;
+}
+.s176 {
+  --angle: 59.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 378px;
+  animation: fly 5.0s 4.0s linear infinite;
+}
+.s177 {
+  --angle: 103.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 320px;
+  animation: fly 4.8s 4.9s linear infinite;
+}
+.s178 {
+  --angle: 339.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 440px;
+  animation: fly 4.0s 0.6s linear infinite;
+}
+.s179 {
+  --angle: 14.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 418px;
+  animation: fly 3.3s 1.8s linear infinite;
+}
+.s180 {
+  --angle: 32.9deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 588px;
+  animation: fly 5.3s 4.0s linear infinite;
+}
+.s181 {
+  --angle: 342.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 600px;
+  animation: fly 4.7s 1.9s linear infinite;
+}
+.s182 {
+  --angle: 14.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 522px;
+  animation: fly 3.9s 4.6s linear infinite;
+}
+.s183 {
+  --angle: 329.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 338px;
+  animation: fly 4.3s 4.4s linear infinite;
+}
+.s184 {
+  --angle: 177.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 309px;
+  animation: fly 3.4s 2.3s linear infinite;
+}
+.s185 {
+  --angle: 241.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 554px;
+  animation: fly 3.3s 4.9s linear infinite;
+}
+.s186 {
+  --angle: 103.8deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 582px;
+  animation: fly 5.3s 3.9s linear infinite;
+}
+.s187 {
+  --angle: 163.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 381px;
+  animation: fly 3.3s 6.8s linear infinite;
+}
+.s188 {
+  --angle: 145.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 445px;
+  animation: fly 6.0s 4.6s linear infinite;
+}
+.s189 {
+  --angle: 195.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 412px;
+  animation: fly 2.8s 2.5s linear infinite;
+}
+.s190 {
+  --angle: 272.3deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 480px;
+  animation: fly 5.0s 1.4s linear infinite;
+}
+.s191 {
+  --angle: 197.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 577px;
+  animation: fly 3.8s 4.9s linear infinite;
+}
+.s192 {
+  --angle: 43.7deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 591px;
+  animation: fly 4.4s 1.7s linear infinite;
+}
+.s193 {
+  --angle: 57.0deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 456px;
+  animation: fly 4.2s 0.7s linear infinite;
+}
+.s194 {
+  --angle: 357.2deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 572px;
+  animation: fly 3.8s 0.8s linear infinite;
+}
+.s195 {
+  --angle: 299.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 439px;
+  animation: fly 4.9s 3.6s linear infinite;
+}
+.s196 {
+  --angle: 98.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 547px;
+  animation: fly 5.9s 1.7s linear infinite;
+}
+.s197 {
+  --angle: 198.5deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 403px;
+  animation: fly 5.7s 3.6s linear infinite;
+}
+.s198 {
+  --angle: 316.6deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 556px;
+  animation: fly 3.1s 5.5s linear infinite;
+}
+.s199 {
+  --angle: 149.4deg;
+  --cx: 400.0px;
+  --cy: 200.0px;
+  --dist: 579px;
+  animation: fly 4.0s 5.7s linear infinite;
+}
+</style>
+<circle class="s0" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s1" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s2" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s3" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s4" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s5" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s6" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s7" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s8" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s9" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s10" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s11" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s12" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s13" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s14" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s15" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s16" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s17" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s18" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s19" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s20" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s21" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s22" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s23" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s24" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s25" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s26" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s27" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s28" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s29" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s30" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s31" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s32" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s33" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s34" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s35" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s36" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s37" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s38" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s39" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s40" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s41" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s42" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s43" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s44" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s45" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s46" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s47" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s48" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s49" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s50" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s51" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s52" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s53" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s54" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s55" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s56" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s57" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s58" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s59" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s60" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s61" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s62" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s63" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s64" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s65" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s66" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s67" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s68" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s69" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s70" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s71" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s72" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s73" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s74" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s75" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s76" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s77" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s78" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s79" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s80" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s81" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s82" cx="0" cy="0" r="0.4" opacity="0"/>
+<circle class="s83" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s84" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s85" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s86" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s87" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s88" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s89" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s90" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s91" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s92" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s93" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s94" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s95" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s96" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s97" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s98" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s99" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s100" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s101" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s102" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s103" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s104" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s105" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s106" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s107" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s108" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s109" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s110" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s111" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s112" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s113" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s114" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s115" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s116" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s117" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s118" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s119" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s120" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s121" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s122" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s123" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s124" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s125" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s126" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s127" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s128" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s129" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s130" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s131" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s132" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s133" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s134" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s135" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s136" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s137" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s138" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s139" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s140" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s141" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s142" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s143" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s144" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s145" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s146" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s147" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s148" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s149" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s150" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s151" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s152" cx="0" cy="0" r="1.8" opacity="0"/>
+<circle class="s153" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s154" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s155" cx="0" cy="0" r="1.5" opacity="0"/>
+<circle class="s156" cx="0" cy="0" r="0.4" opacity="0"/>
+<circle class="s157" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s158" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s159" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s160" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s161" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s162" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s163" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s164" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s165" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s166" cx="0" cy="0" r="0.4" opacity="0"/>
+<circle class="s167" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s168" cx="0" cy="0" r="1.2" opacity="0"/>
+<circle class="s169" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s170" cx="0" cy="0" r="0.7" opacity="0"/>
+<circle class="s171" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s172" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s173" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s174" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s175" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s176" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s177" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s178" cx="0" cy="0" r="0.8" opacity="0"/>
+<circle class="s179" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s180" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s181" cx="0" cy="0" r="1.6" opacity="0"/>
+<circle class="s182" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s183" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s184" cx="0" cy="0" r="1.3" opacity="0"/>
+<circle class="s185" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s186" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s187" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s188" cx="0" cy="0" r="1.4" opacity="0"/>
+<circle class="s189" cx="0" cy="0" r="0.6" opacity="0"/>
+<circle class="s190" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s191" cx="0" cy="0" r="0.5" opacity="0"/>
+<circle class="s192" cx="0" cy="0" r="1.1" opacity="0"/>
+<circle class="s193" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s194" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s195" cx="0" cy="0" r="0.4" opacity="0"/>
+<circle class="s196" cx="0" cy="0" r="0.9" opacity="0"/>
+<circle class="s197" cx="0" cy="0" r="1.0" opacity="0"/>
+<circle class="s198" cx="0" cy="0" r="1.7" opacity="0"/>
+<circle class="s199" cx="0" cy="0" r="1.6" opacity="0"/>
+</svg>
