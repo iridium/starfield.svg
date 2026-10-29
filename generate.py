@@ -1,8 +1,3 @@
-import random
-
-# uncomment if you want the same field every time
-#random.seed(1337)
-
 W, H = 800, 400
 CX, CY = W / 2, H / 2
 NUM_STARS = 200
@@ -14,47 +9,44 @@ def add(s):
 add(f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">')
 add('<style>')
 
-add('''
-circle { fill: #ffffff; }
+add(f'''
+circle {{
+  --i: sibling-index();
+  --angle: calc(var(--i) * 137.508deg);
+  --dist: calc(280px + mod(var(--i) * 97, 320) * 1px);
+  r: calc(0.4px + mod(var(--i) * 0.618, 1) * 1.4px);
+  fill: #ffffff;
+  opacity: 0;
+  animation: fly linear infinite;
+  animation-duration: calc(2s + mod(var(--i) * 0.73, 4) * 1s);
+  animation-delay: calc(mod(var(--i) * 1.37, 7) * -1s);
+}}
 
-@media (prefers-color-scheme: light) {
-  circle { fill: #1b1f24; }
-}
+@media (prefers-color-scheme: light) {{
+  circle {{ fill: #1b1f24; }}
+}}
 
-@keyframes fly {
-  0% {
-    transform: translate(var(--cx), var(--cy)) rotate(var(--angle)) translateX(0px) scale(0.1);
+@keyframes fly {{
+  0% {{
+    transform: translate({CX}px, {CY}px) rotate(var(--angle)) translateX(0px) scale(0.1);
     opacity: 0;
-  }
-  10% { opacity: 0.3; }
-  50% { opacity: 0.8; }
-  85% { opacity: 1; }
-  100% {
-    transform: translate(var(--cx), var(--cy)) rotate(var(--angle)) translateX(var(--dist)) scale(1);
+  }}
+  10% {{ opacity: 0.3; }}
+  50% {{ opacity: 0.8; }}
+  85% {{ opacity: 1; }}
+  100% {{
+    transform: translate({CX}px, {CY}px) rotate(var(--angle)) translateX(var(--dist)) scale(1);
     opacity: 0;
-  }
-}
+  }}
+}}
 ''')
-
-for i in range(NUM_STARS):
-    angle_deg = random.uniform(0, 360)
-    max_dist = random.uniform(280, 600)
-    duration = random.uniform(2.0, 6.0)
-    delay = random.uniform(0, 7.0)
-
-    add(f'.s{i} {{')
-    add(f'  --angle: {angle_deg:.1f}deg;')
-    add(f'  --cx: {CX}px;')
-    add(f'  --cy: {CY}px;')
-    add(f'  --dist: {max_dist:.0f}px;')
-    add(f'  animation: fly {duration:.1f}s {delay:.1f}s linear infinite;')
-    add(f'}}')
 
 add('</style>')
 
+add('<g>')
 for i in range(NUM_STARS):
-    r = random.uniform(0.4, 1.8)
-    add(f'<circle class="s{i}" cx="0" cy="0" r="{r:.1f}" opacity="0"/>')
+    add('<circle/>')
+add('</g>')
 
 add('</svg>')
 
